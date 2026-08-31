@@ -85,3 +85,12 @@ const textoResultado = document.querySelector(".textoResultado");
     ]
     }
     ]
+
+
+    function mostraAlternativa(){
+        for(const alternativa of perguntaAtual.alternativas){
+            const botaoAlternativa = document.createElement("button");
+            botaoAlternativa.textContet = alternativas.texto;
+            botaoAlternativas.addEventListenner("click", function)
+        }
+    }
